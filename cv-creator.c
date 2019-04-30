@@ -19,7 +19,7 @@ printf("What is your age?");
 scanf("%d",&ag);
 fprintf(output,"Name:%s\nFathers name:%s\nMothers name:%s\nAddress:%s\nAge:%d",name,fn,mn,add,ag);
 fclose(output);
-printf("You CV has been created succesfully");
+printf("You CV has been created successfully");
 }else{
 printf("Try again");
 }
